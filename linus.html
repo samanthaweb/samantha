@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalChat</title>
+    <link rel="shorcut icon" href="">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <!-- inicia nav -->
+        <nav>
+            <a href="index.html">
+                <img src="img/logorect(1).png" alt="Logo de LegalChat">
+            </a>
+            <ul>
+                <li>
+                    <a href="views/servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="views/areas.html">Areas</a>
+                </li>
+                <li>
+                    <a href="views/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </nav> 
+    <!-- ends nav -->
+        <img src="img/portada.png" alt="portada">
+        <h1>LegalChat: asesoría virtual</h1>
+    </header>
+
+    <!-- inicia contenido principal -->
+    <main>
+        <section>
+            <div>
+                <p>Somos LegalChat y atendemos tus consultas legales por WhatsApp Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cum necessitatibus ad, iusto quod libero suscipit voluptatum vitae consequuntur harum expedita, repellat commodi vel ratione facere voluptatibus vero dicta nulla? </p>
+                <form action="archivo.php" id="contacto">
+                    <fieldset>               
+                        <legend><b>Dudas? Nosotros nos contactamos</b></legend>
+                        <label for="nombres">Nombres:</label>
+                        <input type="text" id="nombres" placeholder="Luis Robles">
+                        <br>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="text" id="email" placeholder="usuario@gmail.com">
+                        <br>
+                        <label for="contacto">Medio de Contacto:</label>
+                        <label for="whatsapp">WhatsApp</label>
+                        <input type="checkbox" id="whatsApp" value="whatsapp">
+                        <label for="llamada">Llamada</label>
+                        <input type="checkbox" name="llamada" id="llamada">
+                        <br>
+                        <label for="Tema">Tema de consulta:</label>
+                        <select name="consulta" id="consulta">
+                            <option value="Contracts">Contratos</option>
+                            <option value="Despido">Despido</option>
+                            <option value="pago">Pago beneficios laborales</option>
+                        </select>
+                        <br>
+                        <label for="descripción">Descripción</label>
+                        <br>
+                        <textarea placeholder="Describa brevemente su consulta" name="descripcion" id="descripcion" cols="20" rows="5"></textarea>
+                        <br>
+                        <input type="reset" value="Cancelar">
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                    <br>
+                    </form>
+                </div>
+        <!-- ends form -->
+            <div>
+                <h2>Visite nuestras oficinas</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.652122654592!2d-77.02356318600017!3d-12.135937891407966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7fb5108bc79%3A0x4a5594ae8ff4573c!2sJir%C3%B3n%20Juan%20Fanning%20156-298%2C%20Barranco%2015063!5e0!3m2!1ses-419!2spe!4v1654386266013!5m2!1ses-419!2spe" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        <!--ends map-->
+        </section>
+    </main>
+    <!-- cierra main -->
+
+    <footer>
+        <h3><b>SIGUENOS EN NUESTRAS REDES SOCIALES</b></h3>
+        <br>
+        <a href="https://www.facebook.com">
+            <img src="img/iconfb.png" alt="facebook">
+        </a>
+        <a href="https://wwww.instagram.com">
+            <img src="img/iconinsta+.png" alt="instagram">
+        </a>
+        <a href="htttp://www.whatsapp.com">
+            <img src="img/icowhapp.png" alt="whatsapp">
+        </a>
+    </footer>
+
+    
+</body>
+</html>
